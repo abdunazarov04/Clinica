@@ -37,8 +37,8 @@ public class DoctorService {
     }
 
     public Boolean delete(Integer id) {
-      Doctor doctor = get(id);
-      doctorRepository.delete(doctor);
+      Doctor doctor1 = get(id);
+      doctorRepository.delete(doctor1);
       return true;
     }
 
